@@ -5,12 +5,13 @@
 
      .btn-primary {
          color: #FFF;
-         text-align: center;
          font-weight: 600;
          padding: 20px 24px;
          border-radius: 8px;
          background: #FF900E;
+         font-size: 1.25rem;
          border: 0;
+         cursor: pointer;
      }
 
      /* header styles */
@@ -66,3 +67,29 @@
          color: #727272;
          font-weight: 400;
      }
+     .banner img{
+        margin-top: 20px;
+        width: 100%;
+     }
+
+     /* RESPONSIVE MEDIA QUERY */
+     /* Mobail Devise */
+
+@media screen and (max-width:576px){
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+  /* Tablet Devise */
+  @media screen and (min-width:576px) and (max-width:992px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+  }
