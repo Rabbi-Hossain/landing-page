@@ -1,0 +1,68 @@
+     /* shear styles */
+     * {
+         font-family: 'Work Sans', sans-serif;
+     }
+
+     .btn-primary {
+         color: #FFF;
+         text-align: center;
+         font-weight: 600;
+         padding: 20px 24px;
+         border-radius: 8px;
+         background: #FF900E;
+         border: 0;
+     }
+
+     /* header styles */
+     header {
+         background: rgba(255, 144, 14, 0.10);
+         padding: 50px 240px;
+     }
+
+     nav {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+
+     }
+
+     .nav-title {
+         color: #131313;
+         font-size: 2.8rem;
+         font-weight: 700;
+     }
+
+     nav>ul {
+         display: flex;
+     }
+
+     nav ul li {
+         list-style: none;
+         margin-right: 40px;
+         font-size: 1rem;
+         font-weight: 500;
+     }
+
+     nav li a {
+         text-decoration: none;
+         color: #424242;
+     }
+
+     /* BANNER STYLE */
+
+     .banner-content {
+         max-width: 800px;
+         text-align: center;
+         margin: 0 auto;
+     }
+
+     .banner-title {
+         color: #131313;
+         font-size: 4rem;
+         font-weight: 700;
+     }
+
+     .banner-discription {
+         color: #727272;
+         font-weight: 400;
+     }
